@@ -72,7 +72,8 @@ OSApp.Constants = {
 			{ name: "Open Weather Map", id: "OWM", needsKey: true },
 			{ name: "OpenMeteo", id: "OpenMeteo", needsKey: false },
 			{ name: "DWD", id: "DWD", needsKey: false },
-			{ name: "WeatherUnderground", id: "WU", needsKey: true }
+			{ name: "WeatherUnderground", id: "WU", needsKey: true },
+            { name: "Geosphere", id: "Geosphere", needsKey: false }
 		]
 	}
 };
