@@ -914,6 +914,9 @@ OSApp.Weather.makeAttribution = function( provider ) {
 		case "AW":
 			attrib += "<a href='https://www.accuweather.com/' target='_blank'>" + OSApp.Language._("Powered by AccuWeather" ) + "</a";
 			break;
+		case "Geosphere":
+    		attrib += "<a href='https://data.hub.geosphere.at/' target='_blank'>" + OSApp.Language._( "Powered by GeoSphere Austria" ) + "</a>";
+    		break;
 		case "local":
 			attrib += OSApp.Language._( "Powered by your Local PWS" );
 			break;
