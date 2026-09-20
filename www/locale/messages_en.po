@@ -2576,6 +2576,9 @@ msgstr ""
 msgid "Powered by AccuWeather"
 msgstr ""
 
+msgid "Powered by GeoSphere Austria"
+msgstr ""
+
 msgid "Powered by your Local PWS"
 msgstr ""
 
