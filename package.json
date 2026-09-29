@@ -1,6 +1,6 @@
 {
 	"name": "opensprinkler",
-	"version": "0.0.0",
+	"version": "0.0.0-sm",
 	"description": "Designed to allow intuitive control of the OpenSprinkler irrigation controller.",
 	"keywords": [
 		"sprinklers",
