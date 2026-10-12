@@ -3,19 +3,24 @@
 	"name": "OpenSprinkler",
 	"icons": [
 	  {
-		"src": "/img/icon-1024.png",
+		"src": "img/icon-1024.png",
 		"type": "image/png",
 		"sizes": "1024x1024"
 	  },
 	  {
-		"src": "/img/icon-512.png",
+		"src": "img/apple-touch-icon.png",
+		"type": "image/png",
+		"sizes": "180x180"
+	  },
+	  {
+		"src": "img/icon-512.png",
 		"type": "image/png",
 		"sizes": "512x512"
 	  }
 	],
-	"start_url": "/",
+	"start_url": "./",
 	"background_color": "#1c1c1c",
 	"display": "standalone",
-	"scope": "/",
+	"scope": "./",
 	"theme_color": "#1c1c1c"
   }

@@ -191,6 +191,7 @@ cacheFiles = cacheFiles.concat([
   "/css/images/icons-png/video-white.png",
   "/img/icon-1024.png",
   "/img/icon-512.png",
+  "/img/apple-touch-icon.png",
 	  "/img/bell.png",
 	  "/img/check-black.png",
 	  "/img/favicon.ico",
