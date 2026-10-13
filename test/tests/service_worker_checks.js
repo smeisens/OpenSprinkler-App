@@ -159,7 +159,7 @@ describe("Service Worker Fetch Checks", function () {
 	it("only removes obsolete OpenSprinkler caches during activation", function () {
 		var harness = makeHarness();
 		harness.caches.keys.resolves([
-			"OpenSprinkler-v0.0.0-sm-02",
+			"OpenSprinkler-v0.0.0-sm-03",
 			"OpenSprinkler-v-old",
 			"another-app-cache"
 		]);

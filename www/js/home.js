@@ -206,7 +206,7 @@ window.currLocal = true;
 	} );
 
 	// Insert home page icon for iOS
-	insertStyleSheet( assetLocation + "img/apple-touch-icon.png", "apple-touch-icon" );
+	insertStyleSheet( assetLocation + "img/apple-touch-icon.png?v=3", "apple-touch-icon" );
 
 	//Insert the startup images for iOS
 	( function() {

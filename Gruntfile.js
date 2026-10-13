@@ -57,7 +57,7 @@ module.exports = function( grunt ) {
 					archive: "build/firmware/UI.zip"
 				},
 				files: [ {
-					src: [ "css/**", "js/**", "vendor-js/**", "img/**", "locale/*.js", "*.html", "apple-touch-icon.png", "manifest.json", "sw.js" ],
+					src: [ "css/**", "js/**", "vendor-js/**", "img/**", "locale/*.js", "*.html", "apple-touch-icon.png", "apple-touch-icon-precomposed.png", "manifest.json", "sw.js" ],
 					cwd: "www/",
 					expand: true
 				}, {
