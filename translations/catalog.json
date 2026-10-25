@@ -674,7 +674,7 @@
 		},
 		"California Restriction": {
 			"references": [
-				"www/js/modules/weather.js:1087"
+				"www/js/modules/weather.js:1090"
 			],
 			"notes": []
 		},
@@ -723,7 +723,7 @@
 		},
 		"Change Rain Delay": {
 			"references": [
-				"www/js/modules/weather.js:951"
+				"www/js/modules/weather.js:954"
 			],
 			"notes": []
 		},
@@ -1399,7 +1399,7 @@
 			"references": [
 				"www/js/modules/ui-dom.js:1467",
 				"www/js/modules/ui-dom.js:1544",
-				"www/js/modules/weather.js:953"
+				"www/js/modules/weather.js:956"
 			],
 			"notes": []
 		},
@@ -1535,7 +1535,7 @@
 		},
 		"Enable manual rain delay by entering a value into the input below. To turn off a currently enabled rain delay use a value of 0.": {
 			"references": [
-				"www/js/modules/weather.js:960"
+				"www/js/modules/weather.js:963"
 			],
 			"notes": []
 		},
@@ -1592,7 +1592,7 @@
 		},
 		"Error": {
 			"references": [
-				"www/js/modules/weather.js:1056"
+				"www/js/modules/weather.js:1059"
 			],
 			"notes": []
 		},
@@ -2859,7 +2859,7 @@
 				"www/js/modules/programs.js:2255",
 				"www/js/modules/programs.js:2578",
 				"www/js/modules/sensors.js:689",
-				"www/js/modules/weather.js:1083"
+				"www/js/modules/weather.js:1086"
 			],
 			"notes": []
 		},
@@ -2992,7 +2992,7 @@
 		},
 		"Offline": {
 			"references": [
-				"www/js/modules/weather.js:1054"
+				"www/js/modules/weather.js:1057"
 			],
 			"notes": []
 		},
@@ -3028,7 +3028,7 @@
 		},
 		"Online": {
 			"references": [
-				"www/js/modules/weather.js:1058"
+				"www/js/modules/weather.js:1061"
 			],
 			"notes": []
 		},
@@ -3342,6 +3342,12 @@
 			],
 			"notes": []
 		},
+		"Powered by GeoSphere Austria": {
+			"references": [
+				"www/js/modules/weather.js:918"
+			],
+			"notes": []
+		},
 		"Powered by Open Meteo": {
 			"references": [
 				"www/js/modules/weather.js:903"
@@ -3368,7 +3374,7 @@
 		},
 		"Powered by your Local PWS": {
 			"references": [
-				"www/js/modules/weather.js:918"
+				"www/js/modules/weather.js:921"
 			],
 			"notes": []
 		},
@@ -3572,7 +3578,7 @@
 		},
 		"Rain delay has been successfully set": {
 			"references": [
-				"www/js/modules/weather.js:1113"
+				"www/js/modules/weather.js:1116"
 			],
 			"notes": []
 		},
@@ -5376,13 +5382,13 @@
 		"Unrecognised": {
 			"references": [
 				"www/js/modules/firmware.js:762",
-				"www/js/modules/weather.js:1049"
+				"www/js/modules/weather.js:1052"
 			],
 			"notes": []
 		},
 		"Unrecognised weather provider": {
 			"references": [
-				"www/js/modules/weather.js:924"
+				"www/js/modules/weather.js:927"
 			],
 			"notes": []
 		},
@@ -5561,7 +5567,7 @@
 		},
 		"Using manual weather adjustment": {
 			"references": [
-				"www/js/modules/weather.js:921"
+				"www/js/modules/weather.js:924"
 			],
 			"notes": []
 		},
@@ -7355,13 +7361,13 @@
 		{
 			"kind": "concatenation-candidate",
 			"source": "www/js/modules/weather.js",
-			"line": 1049,
+			"line": 1052,
 			"key": "Unrecognised"
 		},
 		{
 			"kind": "dynamic-key",
 			"source": "www/js/modules/weather.js",
-			"line": 1070,
+			"line": 1073,
 			"expression": "OSApp.Language._( OSApp.Weather.Constants.adjustmentMethods[ id & ~( 1 << 7 ) ] )"
 		}
 	]

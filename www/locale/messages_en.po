@@ -482,7 +482,7 @@ msgstr ""
 msgid "Bundle member of"
 msgstr ""
 
-#: www/js/modules/weather.js:1087
+#: www/js/modules/weather.js:1090
 msgid "California Restriction"
 msgstr ""
 
@@ -517,7 +517,7 @@ msgstr ""
 msgid "Change Pause"
 msgstr ""
 
-#: www/js/modules/weather.js:951
+#: www/js/modules/weather.js:954
 msgid "Change Rain Delay"
 msgstr ""
 
@@ -984,7 +984,7 @@ msgstr ""
 
 #: www/js/modules/ui-dom.js:1467
 #: www/js/modules/ui-dom.js:1544
-#: www/js/modules/weather.js:953
+#: www/js/modules/weather.js:956
 msgid "Duration"
 msgstr ""
 
@@ -1078,7 +1078,7 @@ msgstr ""
 msgid "Enable Logging"
 msgstr ""
 
-#: www/js/modules/weather.js:960
+#: www/js/modules/weather.js:963
 msgid ""
 "Enable manual rain delay by entering a value into the input below. To turn "
 "off a currently enabled rain delay use a value of 0."
@@ -1119,7 +1119,7 @@ msgstr ""
 msgid "Enter a duration to manually run "
 msgstr ""
 
-#: www/js/modules/weather.js:1056
+#: www/js/modules/weather.js:1059
 msgid "Error"
 msgstr ""
 
@@ -2005,7 +2005,7 @@ msgstr ""
 #: www/js/modules/programs.js:2255
 #: www/js/modules/programs.js:2578
 #: www/js/modules/sensors.js:689
-#: www/js/modules/weather.js:1083
+#: www/js/modules/weather.js:1086
 msgid "None"
 msgstr ""
 
@@ -2098,7 +2098,7 @@ msgstr ""
 msgid "Off Command"
 msgstr ""
 
-#: www/js/modules/weather.js:1054
+#: www/js/modules/weather.js:1057
 msgid "Offline"
 msgstr ""
 
@@ -2122,7 +2122,7 @@ msgstr ""
 msgid "Onboard Analog"
 msgstr ""
 
-#: www/js/modules/weather.js:1058
+#: www/js/modules/weather.js:1061
 msgid "Online"
 msgstr ""
 
@@ -2351,6 +2351,10 @@ msgstr ""
 msgid "Powered by Dark Sky"
 msgstr ""
 
+#: www/js/modules/weather.js:918
+msgid "Powered by GeoSphere Austria"
+msgstr ""
+
 #: www/js/modules/weather.js:903
 msgid "Powered by Open Meteo"
 msgstr ""
@@ -2367,7 +2371,7 @@ msgstr ""
 msgid "Powered by Weather Underground"
 msgstr ""
 
-#: www/js/modules/weather.js:918
+#: www/js/modules/weather.js:921
 msgid "Powered by your Local PWS"
 msgstr ""
 
@@ -2513,7 +2517,7 @@ msgstr ""
 msgid "Rain Sensor"
 msgstr ""
 
-#: www/js/modules/weather.js:1113
+#: www/js/modules/weather.js:1116
 msgid "Rain delay has been successfully set"
 msgstr ""
 
@@ -3842,11 +3846,11 @@ msgid "Unknown"
 msgstr ""
 
 #: www/js/modules/firmware.js:762
-#: www/js/modules/weather.js:1049
+#: www/js/modules/weather.js:1052
 msgid "Unrecognised"
 msgstr ""
 
-#: www/js/modules/weather.js:924
+#: www/js/modules/weather.js:927
 msgid "Unrecognised weather provider"
 msgstr ""
 
@@ -3978,7 +3982,7 @@ msgstr ""
 msgid "Uses the provider configured on the custom weather server."
 msgstr ""
 
-#: www/js/modules/weather.js:921
+#: www/js/modules/weather.js:924
 msgid "Using manual weather adjustment"
 msgstr ""
 
