@@ -93,7 +93,7 @@ OSApp.Constants = {
 			{ name: "OpenMeteo", id: "OpenMeteo", needsKey: false },
 			{ name: "DWD", id: "DWD", needsKey: false },
 			{ name: "WeatherUnderground", id: "WU", needsKey: true },
-            { name: "GeoSphere", id: "GeoSphere", needsKey: false }
+			{ name: "GeoSphere", id: "GeoSphere", needsKey: false }
 		]
 	}
 };
