@@ -795,7 +795,7 @@ OSApp.Weather.showForecast = function() {
 				"<ul data-role='listview' data-inset='true'>" +
 					OSApp.Weather.makeForecast() +
 				"</ul>" +
-				OSApp.Weather.makeAttribution( OSApp.currentSession.weather.weatherProvider || OSApp.currentSession.weather.wp || OSApp.currentSession.controller.settings.wto?.provider ) +
+				OSApp.Weather.makeAttribution( OSApp.currentSession.weather.forecastProvider || OSApp.currentSession.weather.weatherProvider || OSApp.currentSession.weather.wp || OSApp.currentSession.controller.settings.wto?.provider ) +
 			"</div>" +
 		"</div>" );
 
@@ -913,9 +913,6 @@ OSApp.Weather.makeAttribution = function( provider ) {
 		case "AccuWeather":
 		case "AW":
 			attrib += "<a href='https://www.accuweather.com/' target='_blank'>" + OSApp.Language._("Powered by AccuWeather" ) + "</a";
-			break;
-		case "GeoSphere":
-			attrib += "<a href='https://data.hub.geosphere.at/' target='_blank'>" + OSApp.Language._( "Powered by GeoSphere Austria" ) + "</a>";
 			break;
 		case "local":
 			attrib += OSApp.Language._( "Powered by your Local PWS" );
